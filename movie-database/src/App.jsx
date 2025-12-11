@@ -5,7 +5,7 @@ import Filter from "./components/Filter";
 import MovieList from "./components/MovieList";
 import MovieDetails from "./components/MovieDetails";
 import "./App.css";
-
+import "./index.css";
 function App() {
   // State variables
   const [movies, setMovies] = useState([]);
