@@ -13,7 +13,8 @@
 //   useEffect(() => {
 //     fetch("/movies.json")
 //       .then((res) => res.json())
-//       .then((data) => {
+//       .the
+// n((data) => {
 //         setMovies(data);
 //         setFilteredMovies(data);
 //       })
