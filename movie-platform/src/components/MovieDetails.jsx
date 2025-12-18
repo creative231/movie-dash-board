@@ -13,7 +13,7 @@ const MovieDetails = ({ movie, onClose }) => {
 
         <h2 className="text-2xl font-bold mb-4">{movie.title}</h2>
         <img
-          src={movie.poster_path}
+          src={movie.poster}
           alt={movie.title}
           className="w-full h-80 object-cover rounded mb-4"
         />

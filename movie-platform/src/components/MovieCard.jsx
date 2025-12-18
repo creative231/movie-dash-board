@@ -8,9 +8,9 @@ const MovieCard = ({ movie, onSelect }) => {
     //              hover:shadow-xl hover:scale-105 transition-transform duration-300 cursor-pointer"
     >
       <img
-        src={movie.poster_path || movie.Poster}
+        src={movie.Poster}
         alt={movie.title}
-        className="w-full h-64 object-cover"
+        className="w-56 h-12 object-cover"
       />
       <div className="p-4 dark:text-white">
         <h3 className="font-bold text-lg">{movie.title}</h3>

@@ -24,7 +24,7 @@ const MoviesPage = ({ onSelectMovie }) => {
       <h2 className="text-3xl font-bold my-6 dark:text-white">Latest</h2>
       <MovieList movies={latest} onSelect={onSelectMovie} />
 
-      <h2 className="text-3xl font-bold my-6 dark:text-white">All Movies</h2>
+      <h2 className="text-3xl font-bold my-1 dark:text-white">All Movies</h2>
       <MovieList movies={paginated} onSelect={onSelectMovie} />
 
       {/* Pagination */}

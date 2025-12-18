@@ -10,31 +10,41 @@ const Header = () => {
 
   return (
     <header>
+      <div>
       <h1>Movie Dashboard</h1>
-<NavLink
+      </div>
+
+      
+      <NavLink
           to="/"
           >
              Home
           </NavLink>
-
+        
+        <div>
           <NavLink
            to="/movies"
            >
              Movies
            </NavLink>
+            </div>
 
+            <div>
            <NavLink
              to="/about"
              >
                 About
              </NavLink>
-
+             </div>
+             
+             <div>
              <button
            onClick={() => setDark(!dark)}>
             <span>
                 {dark ? "☀️" : "🌙"}
             </span>
            </button>
+           </div>
     </header>
     
   );
