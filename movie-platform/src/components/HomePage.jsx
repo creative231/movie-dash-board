@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/HomePage.css'; // Make sure to adjust the path based on your folder structure
 
+
 const HomePage = () => {
     return (
         <div className="homepage-container">
